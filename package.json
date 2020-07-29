@@ -1,0 +1,24 @@
+{
+  "name": "node-upload-s3",
+  "version": "1.0.0",
+  "description": "I demonstrated how to create your own REST API Endpoint which can upload files on to the AWS S3 bucket.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@rahul_github:Rahul-247/NODE-UPLOAD-S3.git"
+  },
+  "author": "Rahul",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.722.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "multer": "^1.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
